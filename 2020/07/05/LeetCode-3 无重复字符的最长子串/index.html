@@ -20,15 +20,15 @@
     var CONFIG = {"hostname":"aron.org.cn","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"hide","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="无重复字符的最长子串">
-<meta property="og:url" content="http://aron.org.cn/2020/07/05/Add-tWO/index.html">
+<meta property="og:title" content="LeetCode-3 无重复字符的最长子串">
+<meta property="og:url" content="http://aron.org.cn/2020/07/05/LeetCode-3%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2/index.html">
 <meta property="og:site_name" content="WinterTime&#39;s Home">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-07-05T06:53:29.000Z">
-<meta property="article:modified_time" content="2020-10-05T07:14:45.573Z">
+<meta property="article:modified_time" content="2020-10-05T07:20:32.919Z">
 <meta property="article:author" content="Aron">
 <meta property="article:tag" content="哈希表">
 <meta property="article:tag" content="双指针">
@@ -36,7 +36,7 @@
 <meta property="article:tag" content="滑动窗口">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://aron.org.cn/2020/07/05/Add-tWO/">
+<link rel="canonical" href="http://aron.org.cn/2020/07/05/LeetCode-3%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2/">
 
 
 <script id="page-configurations">
@@ -49,7 +49,7 @@
   };
 </script>
 
-  <title>无重复字符的最长子串 | WinterTime's Home</title>
+  <title>LeetCode-3 无重复字符的最长子串 | WinterTime's Home</title>
   
 
 
@@ -170,7 +170,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://aron.org.cn/2020/07/05/Add-tWO/">
+    <link itemprop="mainEntityOfPage" href="http://aron.org.cn/2020/07/05/LeetCode-3%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/image.jpg">
@@ -183,7 +183,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          无重复字符的最长子串
+          LeetCode-3 无重复字符的最长子串
         </h1>
 
         <div class="post-meta">
@@ -200,7 +200,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-10-05 15:14:45" itemprop="dateModified" datetime="2020-10-05T15:14:45+08:00">2020-10-05</time>
+                <time title="修改时间：2020-10-05 15:20:32" itemprop="dateModified" datetime="2020-10-05T15:20:32+08:00">2020-10-05</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -230,20 +230,40 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+        <p>给定一个字符串，请你找出其中不含有重复字符的 <strong>最长子串</strong> 的长度。</p>
 <a id="more"></a>
+
+<p>示例 1:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">输入: <span class="string">&quot;abcabcbb&quot;</span></span><br><span class="line">输出: <span class="number">3</span> </span><br><span class="line">解释: 因为无重复字符的最长子串是 <span class="string">&quot;abc&quot;</span>，所以其长度为 <span class="number">3</span>。</span><br></pre></td></tr></table></figure>
+
+
+<p>示例 2:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">输入: <span class="string">&quot;bbbbb&quot;</span></span><br><span class="line">输出: <span class="number">1</span></span><br><span class="line">解释: 因为无重复字符的最长子串是 <span class="string">&quot;b&quot;</span>，所以其长度为 <span class="number">1</span>。</span><br></pre></td></tr></table></figure>
+
+
+<p>示例 3:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">输入: <span class="string">&quot;pwwkew&quot;</span></span><br><span class="line">输出: <span class="number">3</span></span><br><span class="line">解释: 因为无重复字符的最长子串是 <span class="string">&quot;wke&quot;</span>，所以其长度为 <span class="number">3</span>。</span><br></pre></td></tr></table></figure>
+
+<p>请注意，你的答案必须是 子串 的长度，”pwke” 是一个子序列，不是子串。</p>
+<p>题目来源：<a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/">https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/</a></p>
+<p>方法一：（优化的滑动窗口）</p>
+<p>时间复杂度：O(N)  </p>
+<p>空间复杂度：O(1) </p>
+<p>此方法与方法二思想相似，下面介绍该方法的逻辑，</p>
+<p>创建一个长度为128的数组，这是因为ASCII表中所有的值为128，这样创建的目的是数组的下标0-127刚好对应了ASCII表中的值，从字符串s中取出的值刚好作为下标来搜索无重复子串的开始和结束部分用于计算其长度。</p>
+<p>对于已存在的ans数组，将从字符串中取出的值作为下标，其位置存储到数组当中，每当从字符串中取得一个值，将其在数组中存放的位置与原无重复子串的起点比较，取出较大的值，如其上一个位置较大，更新起点，否则不更新，然后判断是否更新无重复子串的最大长度。遍历整个字符串即可。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">lengthOfLongestSubstring</span><span class="params">(String s)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(s.equals(<span class="string">&quot;&quot;</span>)) <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">int</span>[] ans = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">128</span>];</span><br><span class="line">        <span class="keyword">int</span> start = <span class="number">0</span>,max = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; s.length(); i++)&#123;</span><br><span class="line">            <span class="keyword">int</span> index = s.charAt(i);</span><br><span class="line">            start = ans[index] &gt; start?ans[index]:start;<span class="comment">//start = Math.max(start,ans[index]);</span></span><br><span class="line">            ans[index] = i+<span class="number">1</span>;</span><br><span class="line">            max = (i-start+<span class="number">1</span>) &gt; max?i-start+<span class="number">1</span>:max;<span class="comment">// max = Math(max,i-start+1);</span></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> max;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>方法二：（优化的滑动窗口）（同方法一）</p>
+<p>时间复杂度：O(N)</p>
+<p>空间复杂度：O(min(m,n))</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">lengthOfLongestSubstring</span><span class="params">(String s)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(s.equals(<span class="string">&quot;&quot;</span>)) <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        Map&lt;Character,Integer&gt; map = <span class="keyword">new</span> HashMap&lt;&gt;();</span><br><span class="line">        <span class="keyword">int</span> start = <span class="number">0</span>,max = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; s.length(); i++)&#123;</span><br><span class="line">           <span class="keyword">if</span>(map.containsKey(s.charAt(i)))</span><br><span class="line">             start = Math.max(start,map.get(s.charAt(i)));</span><br><span class="line">           max = Math.max(max,i-start+<span class="number">1</span>);</span><br><span class="line">           map.put(s.charAt(i),i+<span class="number">1</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> max;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>方法三：（滑动窗口）</p>
+<p>若集合中不存在该值，将其放入集合当中，若存在该值，则从原无重复子串起点开始，移除值，直到不存在该值时，停止，然后将其放入集合当中，计算长度，判断是否更新最大无重复字串的长度。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">lengthOfLongestSubstring</span><span class="params">(String s)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> n = s.length();</span><br><span class="line">        Set&lt;Character&gt; set = <span class="keyword">new</span> HashSet&lt;&gt;();</span><br><span class="line">        <span class="keyword">int</span> ans = <span class="number">0</span>, i = <span class="number">0</span>, j = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">while</span> (i &lt; n &amp;&amp; j &lt; n) &#123;</span><br><span class="line">            <span class="keyword">if</span> (!set.contains(s.charAt(j)))&#123;</span><br><span class="line">                set.add(s.charAt(j++));</span><br><span class="line">                ans = Math.max(ans, j - i);</span><br><span class="line">            &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">                set.remove(s.charAt(i++));</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
     </div>
 
     
@@ -326,7 +346,6 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
