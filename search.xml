@@ -36,7 +36,6 @@
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line">输入: <span class="string">&quot;pwwkew&quot;</span></span><br><span class="line">输出: <span class="number">3</span></span><br><span class="line">解释: 因为无重复字符的最长子串是 <span class="string">&quot;wke&quot;</span>，所以其长度为 <span class="number">3</span>。</span><br></pre></td></tr></table></figure>
 
 <p>请注意，你的答案必须是 子串 的长度，”pwke” 是一个子序列，不是子串。</p>
-<p>题目来源：<a href="https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/">https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/</a></p>
 <p>方法一：（优化的滑动窗口）</p>
 <p>时间复杂度：O(N)  </p>
 <p>空间复杂度：O(1) </p>
@@ -54,6 +53,7 @@
 <p>若集合中不存在该值，将其放入集合当中，若存在该值，则从原无重复子串起点开始，移除值，直到不存在该值时，停止，然后将其放入集合当中，计算长度，判断是否更新最大无重复字串的长度。</p>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">lengthOfLongestSubstring</span><span class="params">(String s)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> n = s.length();</span><br><span class="line">        Set&lt;Character&gt; set = <span class="keyword">new</span> HashSet&lt;&gt;();</span><br><span class="line">        <span class="keyword">int</span> ans = <span class="number">0</span>, i = <span class="number">0</span>, j = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">while</span> (i &lt; n &amp;&amp; j &lt; n) &#123;</span><br><span class="line">            <span class="keyword">if</span> (!set.contains(s.charAt(j)))&#123;</span><br><span class="line">                set.add(s.charAt(j++));</span><br><span class="line">                ans = Math.max(ans, j - i);</span><br><span class="line">            &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">                set.remove(s.charAt(i++));</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
+<p>题目来源： <a href="https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/">LeetCode 3 无重复字符的最长子串</a></p>
 ]]></content>
       <categories>
         <category>Algorithm</category>
