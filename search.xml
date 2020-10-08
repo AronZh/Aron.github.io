@@ -1,6 +1,427 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>ASCII表</title>
+    <url>/2020/07/06/ASCII%E8%A1%A8/</url>
+    <content><![CDATA[<p>ASCII查询表</p>
+<a id="more"></a>
+
+<table>
+<thead>
+<tr>
+<th align="center">ASCII值</th>
+<th align="center">控制字符</th>
+<th align="center">ASCII值</th>
+<th align="center">控制字符</th>
+<th align="center">ASCII值</th>
+<th align="center">控制字符</th>
+<th align="center">ASCII值</th>
+<th align="center">控制字符</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">0</td>
+<td align="center">NUT</td>
+<td align="center">32</td>
+<td align="center">(space)</td>
+<td align="center">64</td>
+<td align="center">@</td>
+<td align="center">96</td>
+<td align="center">、</td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="center">SOH</td>
+<td align="center">33</td>
+<td align="center">!</td>
+<td align="center">65</td>
+<td align="center">A</td>
+<td align="center">97</td>
+<td align="center">a</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">STX</td>
+<td align="center">34</td>
+<td align="center">“</td>
+<td align="center">66</td>
+<td align="center">B</td>
+<td align="center">98</td>
+<td align="center">b</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">ETX</td>
+<td align="center">35</td>
+<td align="center">#</td>
+<td align="center">67</td>
+<td align="center">C</td>
+<td align="center">99</td>
+<td align="center">c</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">EOT</td>
+<td align="center">36</td>
+<td align="center">$</td>
+<td align="center">68</td>
+<td align="center">D</td>
+<td align="center">100</td>
+<td align="center">d</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">ENQ</td>
+<td align="center">37</td>
+<td align="center">%</td>
+<td align="center">69</td>
+<td align="center">E</td>
+<td align="center">101</td>
+<td align="center">e</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">ACK</td>
+<td align="center">38</td>
+<td align="center">&amp;</td>
+<td align="center">70</td>
+<td align="center">F</td>
+<td align="center">102</td>
+<td align="center">f</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">BEL</td>
+<td align="center">39</td>
+<td align="center">,</td>
+<td align="center">71</td>
+<td align="center">G</td>
+<td align="center">103</td>
+<td align="center">g</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">BS</td>
+<td align="center">40</td>
+<td align="center">(</td>
+<td align="center">72</td>
+<td align="center">H</td>
+<td align="center">104</td>
+<td align="center">h</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">HT</td>
+<td align="center">41</td>
+<td align="center">)</td>
+<td align="center">73</td>
+<td align="center">I</td>
+<td align="center">105</td>
+<td align="center">i</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">LF</td>
+<td align="center">42</td>
+<td align="center">*</td>
+<td align="center">74</td>
+<td align="center">J</td>
+<td align="center">106</td>
+<td align="center">j</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">VT</td>
+<td align="center">43</td>
+<td align="center">+</td>
+<td align="center">75</td>
+<td align="center">K</td>
+<td align="center">107</td>
+<td align="center">k</td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">FF</td>
+<td align="center">44</td>
+<td align="center">,</td>
+<td align="center">76</td>
+<td align="center">L</td>
+<td align="center">108</td>
+<td align="center">l</td>
+</tr>
+<tr>
+<td align="center">13</td>
+<td align="center">CR</td>
+<td align="center">45</td>
+<td align="center">-</td>
+<td align="center">77</td>
+<td align="center">M</td>
+<td align="center">109</td>
+<td align="center">m</td>
+</tr>
+<tr>
+<td align="center">14</td>
+<td align="center">SO</td>
+<td align="center">46</td>
+<td align="center">.</td>
+<td align="center">78</td>
+<td align="center">N</td>
+<td align="center">110</td>
+<td align="center">n</td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td align="center">SI</td>
+<td align="center">47</td>
+<td align="center">/</td>
+<td align="center">79</td>
+<td align="center">O</td>
+<td align="center">111</td>
+<td align="center">o</td>
+</tr>
+<tr>
+<td align="center">16</td>
+<td align="center">DLE</td>
+<td align="center">48</td>
+<td align="center">0</td>
+<td align="center">80</td>
+<td align="center">P</td>
+<td align="center">112</td>
+<td align="center">p</td>
+</tr>
+<tr>
+<td align="center">17</td>
+<td align="center">DCI</td>
+<td align="center">49</td>
+<td align="center">1</td>
+<td align="center">81</td>
+<td align="center">Q</td>
+<td align="center">113</td>
+<td align="center">q</td>
+</tr>
+<tr>
+<td align="center">18</td>
+<td align="center">DC2</td>
+<td align="center">50</td>
+<td align="center">2</td>
+<td align="center">82</td>
+<td align="center">R</td>
+<td align="center">114</td>
+<td align="center">r</td>
+</tr>
+<tr>
+<td align="center">19</td>
+<td align="center">DC3</td>
+<td align="center">51</td>
+<td align="center">3</td>
+<td align="center">83</td>
+<td align="center">S</td>
+<td align="center">115</td>
+<td align="center">s</td>
+</tr>
+<tr>
+<td align="center">20</td>
+<td align="center">DC4</td>
+<td align="center">52</td>
+<td align="center">4</td>
+<td align="center">84</td>
+<td align="center">T</td>
+<td align="center">116</td>
+<td align="center">t</td>
+</tr>
+<tr>
+<td align="center">21</td>
+<td align="center">NAK</td>
+<td align="center">53</td>
+<td align="center">5</td>
+<td align="center">85</td>
+<td align="center">U</td>
+<td align="center">117</td>
+<td align="center">u</td>
+</tr>
+<tr>
+<td align="center">22</td>
+<td align="center">SYN</td>
+<td align="center">54</td>
+<td align="center">6</td>
+<td align="center">86</td>
+<td align="center">V</td>
+<td align="center">118</td>
+<td align="center">v</td>
+</tr>
+<tr>
+<td align="center">23</td>
+<td align="center">TB</td>
+<td align="center">55</td>
+<td align="center">7</td>
+<td align="center">87</td>
+<td align="center">W</td>
+<td align="center">119</td>
+<td align="center">w</td>
+</tr>
+<tr>
+<td align="center">24</td>
+<td align="center">CAN</td>
+<td align="center">56</td>
+<td align="center">8</td>
+<td align="center">88</td>
+<td align="center">X</td>
+<td align="center">120</td>
+<td align="center">x</td>
+</tr>
+<tr>
+<td align="center">25</td>
+<td align="center">EM</td>
+<td align="center">57</td>
+<td align="center">9</td>
+<td align="center">89</td>
+<td align="center">Y</td>
+<td align="center">121</td>
+<td align="center">y</td>
+</tr>
+<tr>
+<td align="center">26</td>
+<td align="center">SUB</td>
+<td align="center">58</td>
+<td align="center">:</td>
+<td align="center">90</td>
+<td align="center">Z</td>
+<td align="center">122</td>
+<td align="center">z</td>
+</tr>
+<tr>
+<td align="center">27</td>
+<td align="center">ESC</td>
+<td align="center">59</td>
+<td align="center">;</td>
+<td align="center">91</td>
+<td align="center">[</td>
+<td align="center">123</td>
+<td align="center">{</td>
+</tr>
+<tr>
+<td align="center">28</td>
+<td align="center">FS</td>
+<td align="center">60</td>
+<td align="center">&lt;</td>
+<td align="center">92</td>
+<td align="center">/</td>
+<td align="center">124</td>
+<td align="center">|</td>
+</tr>
+<tr>
+<td align="center">29</td>
+<td align="center">GS</td>
+<td align="center">61</td>
+<td align="center">=</td>
+<td align="center">93</td>
+<td align="center">]</td>
+<td align="center">125</td>
+<td align="center">}</td>
+</tr>
+<tr>
+<td align="center">30</td>
+<td align="center">RS</td>
+<td align="center">62</td>
+<td align="center">&gt;</td>
+<td align="center">94</td>
+<td align="center">^</td>
+<td align="center">126</td>
+<td align="center">`</td>
+</tr>
+<tr>
+<td align="center">31</td>
+<td align="center">US</td>
+<td align="center">63</td>
+<td align="center">?</td>
+<td align="center">95</td>
+<td align="center">_</td>
+<td align="center">127</td>
+<td align="center">DEL</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>计算机基础</category>
+      </categories>
+      <tags>
+        <tag>ASCII</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>LeetCode10 正则表达式匹配</title>
+    <url>/2020/07/07/LeetCode10-%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8C%B9%E9%85%8D/</url>
+    <content><![CDATA[<p>给你一个字符串 s 和一个字符规律 p，请你来实现一个支持 ‘.’ 和 ‘*’ 的正则表达式匹配。</p>
+<a id="more"></a>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="string">&#x27;.&#x27;</span> 匹配任意单个字符</span><br><span class="line"><span class="string">&#x27;*&#x27;</span> 匹配零个或多个前面的那一个元素</span><br><span class="line">所谓匹配，是要涵盖 整个 字符串 s的，而不是部分字符串。</span><br></pre></td></tr></table></figure>
+
+<p>说明:</p>
+<p>s 可能为空，且只包含从 a-z 的小写字母。<br>p 可能为空，且只包含从 a-z 的小写字母，以及字符 . 和 *。</p>
+<p>示例 1:</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">输入:</span><br><span class="line">s = <span class="string">&quot;aa&quot;</span></span><br><span class="line">p = <span class="string">&quot;a&quot;</span></span><br><span class="line">输出: <span class="keyword">false</span></span><br><span class="line">解释: <span class="string">&quot;a&quot;</span> 无法匹配 <span class="string">&quot;aa&quot;</span> 整个字符串。</span><br></pre></td></tr></table></figure>
+
+
+<p>示例 2:</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">输入:</span><br><span class="line">s = <span class="string">&quot;aa&quot;</span></span><br><span class="line">p = <span class="string">&quot;a*&quot;</span></span><br><span class="line">输出: <span class="keyword">true</span></span><br><span class="line">解释: 因为 <span class="string">&#x27;*&#x27;</span> 代表可以匹配零个或多个前面的那一个元素, 在这里前面的元素就是 <span class="string">&#x27;a&#x27;</span>。因此，字符串 <span class="string">&quot;aa&quot;</span> 可被视为 <span class="string">&#x27;a&#x27;</span> 重复了一次。</span><br></pre></td></tr></table></figure>
+
+
+<p>示例 3:</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">输入:</span><br><span class="line">s = <span class="string">&quot;ab&quot;</span></span><br><span class="line">p = <span class="string">&quot;.*&quot;</span></span><br><span class="line">输出: <span class="keyword">true</span></span><br><span class="line">解释: <span class="string">&quot;.*&quot;</span> 表示可匹配零个或多个（<span class="string">&#x27;*&#x27;</span>）任意字符（<span class="string">&#x27;.&#x27;</span>）。</span><br></pre></td></tr></table></figure>
+
+
+<p>示例 4:</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">输入:</span><br><span class="line">s = <span class="string">&quot;aab&quot;</span></span><br><span class="line">p = <span class="string">&quot;c*a*b&quot;</span></span><br><span class="line">输出: <span class="keyword">true</span></span><br><span class="line">解释: 因为 <span class="string">&#x27;*&#x27;</span> 表示零个或多个，这里 <span class="string">&#x27;c&#x27;</span> 为 <span class="number">0</span> 个, <span class="string">&#x27;a&#x27;</span> 被重复一次。因此可以匹配字符串 <span class="string">&quot;aab&quot;</span>。</span><br></pre></td></tr></table></figure>
+
+
+<p>示例 5:</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">输入:</span><br><span class="line">s = <span class="string">&quot;mississippi&quot;</span></span><br><span class="line">p = <span class="string">&quot;mis*is*p*.&quot;</span></span><br><span class="line">输出: <span class="keyword">false</span></span><br></pre></td></tr></table></figure>
+
+<p>方法一（动态规划）</p>
+<ul>
+<li>考虑字符串s和字符模型p，假设其长度分别为slen和plen,创建二维数组<code>flag[slen+1][plen+1]</code>来标记之前的字符串是否匹配.其中第一行代表字符串s为空的情况，第一列代表字符串p为空的情况。 比如说考虑字符串“<code>aab</code>” 与“<code>c*a*b</code>”.则如下图<code>flag[1][3]</code>为true表示字符串a与c*a匹配。以此类推，若<code>flag[slen][plen] = true</code>,那么表示字符串s和p可以匹配。那么现在的工作就是如何将这个二维数组填满。</li>
+</ul>
+<p><img src="images/1575035835804.png" alt="1575035835804"></p>
+<ul>
+<li><p>考虑<code>flag[i][j]</code>,对应字符串s和p中的值分别是<code>s.charAt(i-1)</code>和<code>p.charAt(j-1)</code>;</p>
+<ol>
+<li><p>若<code>p.charAt(j-1) == &#39;.&#39;;</code>那么无论<code>s.charAt(i-1)</code>是什么值，它们都将与其匹配，此时只要考虑在此之前的字符串是否匹配即可。即<code>flag[i-1][j-1]</code>是否为true；若为true，<code>flag[i][j] = true</code>；反之，<code>flag[i][j] = false</code>；继续标记下一个点。</p>
+</li>
+<li><p>若p.charAt(j-1) 是a~z中的任何一个值，那么当满足<code>s.charAt(i-1)==p.charAt(j-1)</code>时才能匹配，考虑之前的字符串是否匹配即可。即<code>flag[i-1][j-1]</code>是否为true；若为true，<code>flag[i][j] = true</code>；反之，<code>flag[i][j] = false</code>；继续标记下一个点。</p>
+</li>
+<li><p>若<code>p.charAt(j-1) == &#39;*&#39;</code>;此时分情况讨论：</p>
+<p>1）若<code>flag[i][j-2] == true;</code>那么<code>flag[i][j] == true;</code>且必定为true；如下图，<code>flag[0][2] == true;</code></p>
+<p>考虑<code>flag[0][4]</code>的位置，因为*代表匹配0个或多个字符串，所以当a为0个的时候，此时的字符串仍然匹配。</p>
+<p><img src="images/1575038942557.png" alt="1575038942557"></p>
+<p>2）若<code>flag[i][j-2] == false</code>；若<code>p.charAt(j-2) == &#39;.&#39;</code>，那么无论s.charAt(i-1)是什么值，都将与其匹配；若p.charAt(j-2) 是a~z中的任何一个值，那么当满足<code>s.charAt(i-1)==p.charAt(j-2)</code>时才能匹配。其中p.charAt(j-2)是<code>*</code>之前位置的值，注意此时并不能保证<code>flag[i][j] == true</code>;因为我们不能确定在此位置之前的字符串是否匹配。考虑<code>flag[2][4]</code>，当<code>flag[1][4] == true</code>时，说明之前的字符串已经匹配，那么增加一个相同的字符，同样匹配。那么我们就可以肯定此时<code>flag[2][4] == true</code>;若<code>flag[1][4]  == false;</code>那么既然之前字符串不匹配，那么在增加一个字符肯定也不会匹配，<code>flag[2][4] == false</code>;</p>
+<p><img src="images/1575040597284.png" alt="1575040597284"></p>
+<p>注意，我们不能像之前1和2中按照<code>flag[i-1][j-1]</code>的值判断是否匹配，我们将s中的b换成a，如下图，考虑<code>flag[3][4]</code>。<code>flag[2][3] == false;</code>因为如果存在多个重复的值，p中单个的值肯定不能与s当中多个重复的值匹配，也就是对于<code>flag[i][j],flag[i-1][j-1]</code>并不一直为true.</p>
+<p><img src="images/1575041376866.png" alt="1575041376866"></p>
+</li>
+</ol>
+</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">isMatch</span><span class="params">(String s, String p)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> slen = s.length(), plen = p.length();</span><br><span class="line">        <span class="keyword">boolean</span>[][] flag = <span class="keyword">new</span> <span class="keyword">boolean</span>[slen+<span class="number">1</span>][plen+<span class="number">1</span>];</span><br><span class="line">        flag[<span class="number">0</span>][<span class="number">0</span>] = <span class="keyword">true</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt;= slen; i++)&#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">1</span>; j &lt;= plen; j++)&#123;</span><br><span class="line">                <span class="keyword">if</span>(p.charAt(j-<span class="number">1</span>) == <span class="string">&#x27;*&#x27;</span>)&#123;</span><br><span class="line">                    flag[i][j] = flag[i][j-<span class="number">2</span>] || (i &gt; <span class="number">0</span> &amp;&amp;(s.charAt(i-<span class="number">1</span>) == p.charAt(j-<span class="number">2</span>)                                    || p.charAt(j-<span class="number">2</span>) == <span class="string">&#x27;.&#x27;</span>) &amp;&amp; flag[i-<span class="number">1</span>][j]);</span><br><span class="line">                &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">                    flag[i][j] = i &gt; <span class="number">0</span> &amp;&amp; (s.charAt(i-<span class="number">1</span>) == p.charAt(j-<span class="number">1</span>) || p.charAt(j-<span class="number">1</span>)                                  == <span class="string">&#x27;.&#x27;</span>) &amp;&amp; flag[i-<span class="number">1</span>][j-<span class="number">1</span>];</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> flag[slen][plen];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>可以发现，当前行的值只与当前行以及上一行有关，故可以优化一下空间复杂度。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">isMatch</span><span class="params">(String s, String p)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> sLen = s.length(), pLen = p.length();</span><br><span class="line">		<span class="keyword">boolean</span>[][] memory = <span class="keyword">new</span> <span class="keyword">boolean</span>[<span class="number">2</span>][pLen+<span class="number">1</span>];</span><br><span class="line">		memory[<span class="number">0</span>][<span class="number">0</span>] = <span class="keyword">true</span>;</span><br><span class="line">		<span class="keyword">int</span> cur = <span class="number">0</span>, pre = <span class="number">0</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt;= sLen; i++) &#123;</span><br><span class="line">			cur = i % <span class="number">2</span>;<span class="comment">//当前行</span></span><br><span class="line">			pre = (i + <span class="number">1</span>) % <span class="number">2</span>;<span class="comment">//当前行的上一行</span></span><br><span class="line">            <span class="comment">/*</span></span><br><span class="line"><span class="comment">            除第一行外，每次标记之前，将当前行初始化，避免上一行影响，</span></span><br><span class="line"><span class="comment">            */</span></span><br><span class="line">			<span class="keyword">if</span>(i &gt; <span class="number">0</span>) &#123;</span><br><span class="line">				<span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>; j &lt;= pLen; j++) </span><br><span class="line">                    memory[cur][j] = <span class="keyword">false</span>;</span><br><span class="line">				&#125;</span><br><span class="line">			<span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">1</span>; j &lt;= pLen; j++) &#123;</span><br><span class="line">				<span class="keyword">if</span>(p.charAt(j-<span class="number">1</span>) == <span class="string">&#x27;*&#x27;</span>) &#123;</span><br><span class="line">					memory[cur][j] = memory[cur][j-<span class="number">2</span>] || (i &gt; <span class="number">0</span> &amp;&amp; (s.charAt(i-<span class="number">1</span>) == p.charAt(j-<span class="number">2</span>) || p.charAt(j-<span class="number">2</span>) == <span class="string">&#x27;.&#x27;</span>) &amp;&amp; memory[pre][j]);</span><br><span class="line">				&#125;<span class="keyword">else</span> &#123;</span><br><span class="line">					memory[cur][j] = i &gt; <span class="number">0</span> &amp;&amp; (s.charAt(i-<span class="number">1</span>) == p.charAt(j-<span class="number">1</span>) || p.charAt(j-<span class="number">1</span>) == <span class="string">&#x27;.&#x27;</span>)&amp;&amp; memory[pre][j-<span class="number">1</span>];</span><br><span class="line">				&#125;&#125;&#125;</span><br><span class="line">		<span class="keyword">return</span> memory[cur][pLen];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>方法二（回溯）</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">isMatch</span><span class="params">(String text, String pattern)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (pattern.isEmpty()) <span class="keyword">return</span> text.isEmpty();</span><br><span class="line">        <span class="keyword">boolean</span> first_match = (!text.isEmpty() &amp;&amp;</span><br><span class="line">                               (pattern.charAt(<span class="number">0</span>) == text.charAt(<span class="number">0</span>) || pattern.charAt(<span class="number">0</span>) == <span class="string">&#x27;.&#x27;</span>));</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> (pattern.length() &gt;= <span class="number">2</span> &amp;&amp; pattern.charAt(<span class="number">1</span>) == <span class="string">&#x27;*&#x27;</span>)&#123;</span><br><span class="line">            <span class="keyword">return</span> (isMatch(text, pattern.substring(<span class="number">2</span>)) ||</span><br><span class="line">                    (first_match &amp;&amp; isMatch(text.substring(<span class="number">1</span>), pattern)));</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> first_match &amp;&amp; isMatch(text.substring(<span class="number">1</span>), pattern.substring(<span class="number">1</span>));</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>题目来源：<a href="https://leetcode-cn.com/problems/regular-expression-matching/">LeetCode10 正则表达式匹配</a></p>
+]]></content>
+      <categories>
+        <category>Algorithm</category>
+      </categories>
+      <tags>
+        <tag>字符串</tag>
+        <tag>动态规划</tag>
+        <tag>回溯算法</tag>
+        <tag>LeetCode</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>LeetCode3 无重复字符的最长子串</title>
     <url>/2020/07/05/LeetCode3%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2/</url>
     <content><![CDATA[<p>给定一个字符串，请你找出其中不含有重复字符的最长子串的长度。</p>
@@ -39,10 +460,53 @@
         <category>Algorithm</category>
       </categories>
       <tags>
+        <tag>字符串</tag>
+        <tag>LeetCode</tag>
         <tag>哈希表</tag>
         <tag>双指针</tag>
-        <tag>字符串</tag>
         <tag>滑动窗口</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>LeetCode32 最长有效括号</title>
+    <url>/2020/07/06/LeetCode32%20%E6%9C%80%E9%95%BF%E6%9C%89%E6%95%88%E6%8B%AC%E5%8F%B7/</url>
+    <content><![CDATA[<p>给定一个只包含 <code>&#39;(&#39;</code> 和 <code>&#39;)&#39;</code> 的字符串，找出最长的包含有效括号的子串的长度。 </p>
+<a id="more"></a>    
+
+<p>示例 1:</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">输入: <span class="string">&quot;(()&quot;</span></span><br><span class="line">输出: <span class="number">2</span></span><br><span class="line">解释: 最长有效括号子串为 <span class="string">&quot;()&quot;</span></span><br></pre></td></tr></table></figure>
+
+
+<p>示例 2:</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">输入: <span class="string">&quot;)()())&quot;</span></span><br><span class="line">输出: <span class="number">4</span></span><br><span class="line">解释: 最长有效括号子串为 <span class="string">&quot;()()&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>方法一：动态规划（时间复杂度：O(n),空间复杂度：O(n)）</p>
+<p>先定义一个dp数组来存储有效字符串的最大长度，其长度为给定字符串的长度，其值全部初始化为0；对与一个给定的字符串，它的有效字符串长度必定以“）”结尾，我们只需更新其相对位置上的值即可，代表有效字符串的最大长度。其中所求子串必须连续。</p>
+<p>分析：若某一位置i上元素为“）”，判断其i-1位置是否为“（”；若是，则更新dp[i] ;需要考虑dp[i-2]的值，但如果i&lt;2,dp[i]= dp[i-1]+2;反之dp[i]=dp[i-1] + dp[i-2] + 1;若不是，判断i - dp[i-1]-1位置上是否为“（”，若是，判断i-dp[i] &gt;= 2;若是，dp[i] = dp[i-1] + dp[i-2] + 2;反之，dp[i] = dp[i-1] + 2;</p>
+<p>每遍历一次，就更新最大值。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">longestValidParentheses</span><span class="params">(String s)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> n = s.length();</span><br><span class="line">        <span class="keyword">int</span>[] bp = <span class="keyword">new</span> <span class="keyword">int</span>[n];</span><br><span class="line">        <span class="keyword">int</span> maxLen = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; n; i++)&#123;</span><br><span class="line">            <span class="keyword">if</span>(s.charAt(i) == <span class="string">&#x27;)&#x27;</span>)&#123;</span><br><span class="line">                <span class="keyword">if</span>(s.charAt(i-<span class="number">1</span>) == <span class="string">&#x27;(&#x27;</span>)&#123;</span><br><span class="line">                    bp[i] = (i &gt;= <span class="number">2</span> ? bp[i-<span class="number">2</span>] : <span class="number">0</span>) + <span class="number">2</span>;</span><br><span class="line">                &#125;<span class="keyword">else</span> <span class="keyword">if</span>(i - bp[i-<span class="number">1</span>] &gt; <span class="number">0</span> &amp;&amp; s.charAt(i - bp[i-<span class="number">1</span>] - <span class="number">1</span>) == <span class="string">&#x27;(&#x27;</span>)&#123;</span><br><span class="line">                    bp[i] = bp[i-<span class="number">1</span>] + (i-bp[i-<span class="number">1</span>]&gt;=<span class="number">2</span> ? bp[i-bp[i-<span class="number">1</span>] -<span class="number">2</span>] : <span class="number">0</span>) + <span class="number">2</span>;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            maxLen = Math.max(maxLen,bp[i]);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> maxLen;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>方法二（暴力栈）（时间复杂度：O(n^2),空间复杂度：O(n)）</p>
+<p>观察所给示例，凡是符合条件的子串都是成对出现的，也就是说，符合要求的字串，只要出现几个“（”，那么就会随后就会出现几个“）”；所以说找出给定子串所有子串，然后进行判断是否是符合条件的子串，边判断边更新长度。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">isValid</span><span class="params">(String s)</span> </span>&#123;</span><br><span class="line">        Stack&lt;Character&gt; stack = <span class="keyword">new</span> Stack&lt;Character&gt;();</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; s.length(); i++) &#123;</span><br><span class="line">            <span class="keyword">if</span> (s.charAt(i) == <span class="string">&#x27;(&#x27;</span>) &#123;</span><br><span class="line">                stack.push(<span class="string">&#x27;(&#x27;</span>);</span><br><span class="line">            &#125; <span class="keyword">else</span> <span class="keyword">if</span> (!stack.empty() &amp;&amp; stack.peek() == <span class="string">&#x27;(&#x27;</span>) &#123;</span><br><span class="line">                stack.pop();</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="keyword">false</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> stack.empty();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">longestValidParentheses</span><span class="params">(String s)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> maxlen = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; s.length(); i++) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = i + <span class="number">2</span>; j &lt;= s.length(); j+=<span class="number">2</span>) &#123;</span><br><span class="line">                <span class="keyword">if</span> (isValid(s.substring(i, j))) &#123;</span><br><span class="line">                    maxlen = Math.max(maxlen, j - i);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> maxlen;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>方法三（优化栈）</p>
+<p>理解为找一个垫底的位置作为参考，栈内存储坐标值而不是给定字符串中的字符，按照方法二的逻辑，括号总是成对出现的，一旦出现成对的括号，那么之后但凡不符合要求的就将它作为垫底元素。最后得到结果为当前值减去栈顶值。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">longestValidParentheses</span><span class="params">(String s)</span> </span>&#123;</span><br><span class="line">        Stack&lt;Integer&gt; stack = <span class="keyword">new</span> Stack&lt;&gt;();</span><br><span class="line">        <span class="keyword">int</span> n = s.length();</span><br><span class="line">        stack.push(-<span class="number">1</span>);</span><br><span class="line">        <span class="keyword">int</span> maxLen = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; i ++)&#123;</span><br><span class="line">            <span class="keyword">if</span>(s.charAt(i) == <span class="string">&#x27;(&#x27;</span>)&#123;</span><br><span class="line">                stack.push(i);</span><br><span class="line">            &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">                stack.pop();</span><br><span class="line">                <span class="keyword">if</span>(stack.empty())&#123;</span><br><span class="line">                    stack.push(i);</span><br><span class="line">                &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">                    maxLen = Math.max(maxLen,i-stack.peek());</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> maxLen;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>方法四（左右各遍历一遍）</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">longestValidParentheses</span><span class="params">(String s)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> left = <span class="number">0</span>, right = <span class="number">0</span>, maxlength = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; s.length(); i++) &#123;</span><br><span class="line">            <span class="keyword">if</span> (s.charAt(i) == <span class="string">&#x27;(&#x27;</span>) &#123;</span><br><span class="line">                left++;</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                right++;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (left == right) &#123;</span><br><span class="line">                maxlength = Math.max(maxlength, <span class="number">2</span> * right);</span><br><span class="line">            &#125; <span class="keyword">else</span> <span class="keyword">if</span> (right &gt;= left) &#123;</span><br><span class="line">                left = right = <span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        left = right = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = s.length() - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i--) &#123;</span><br><span class="line">            <span class="keyword">if</span> (s.charAt(i) == <span class="string">&#x27;(&#x27;</span>) &#123;</span><br><span class="line">                left++;</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                right++;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (left == right) &#123;</span><br><span class="line">                maxlength = Math.max(maxlength, <span class="number">2</span> * left);</span><br><span class="line">            &#125; <span class="keyword">else</span> <span class="keyword">if</span> (left &gt;= right) &#123;</span><br><span class="line">                left = right = <span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> maxlength;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>这道题除了动态规划的方法之外，其他都是利用了括号的规律，即括号总是成对出现的，一旦出现了不匹配的字符，那么就要重新开始统计。方法四，左右都遍历一遍，因为只统计一遍得不到正确的结果。因为右括号总是要比左括号先出现。所以一旦左括号的数量比右括号多，那么需要重新统计，无论是方法二还是方法三还是方法四都利用了这个性质。只统计一编万一正确结果在左边界或者右边界那么得到的结果就是错误的。</p>
+<p>题目来源： <a href="https://leetcode-cn.com/problems/longest-valid-parentheses/">LeetCode32最长有小括号</a></p>
+]]></content>
+      <categories>
+        <category>Algorithm</category>
+      </categories>
+      <tags>
+        <tag>字符串</tag>
+        <tag>动态规划</tag>
+        <tag>LeetCode</tag>
       </tags>
   </entry>
   <entry>
@@ -75,6 +539,7 @@
         <category>Algorithm</category>
       </categories>
       <tags>
+        <tag>LeetCode</tag>
         <tag>数学</tag>
       </tags>
   </entry>
@@ -133,6 +598,7 @@
       </categories>
       <tags>
         <tag>字符串</tag>
+        <tag>LeetCode</tag>
         <tag>数学</tag>
       </tags>
   </entry>
@@ -165,7 +631,109 @@
         <category>Algorithm</category>
       </categories>
       <tags>
+        <tag>LeetCode</tag>
         <tag>数学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>二进制的表示以及左移右移</title>
+    <url>/2020/07/06/%E4%BA%8C%E8%BF%9B%E5%88%B6%E7%9A%84%E8%A1%A8%E7%A4%BA%E4%BB%A5%E5%8F%8A%E5%B7%A6%E7%A7%BB%E5%8F%B3%E7%A7%BB/</url>
+    <content><![CDATA[<p>在二进制中，负值以其正值的补码形式保存。</p>
+<a id="more"></a>
+
+<p><strong>原码：</strong>一个整数，按照绝对值大小转换成的二进制数，称为原码</p>
+<p>eg.  5的原码：0000 0000 0000 0000 0000 0000 0000 0101</p>
+<p><strong>反码：</strong>将二进制数按位取反，所得的新二进制数称为原二进制数的反码。（反码是相互的）</p>
+<p>eg.  5的反码：1111 1111 1111 1111 1111 1111 1111 1010</p>
+<p><strong>补码：</strong>反码加1称为补码，也就是说，要得到一个补码，应先得到反码，然后在加1；</p>
+<p>eg. 5的补码： 1111 1111 1111 1111 1111 1111 1111 1011（-5）</p>
+<p><strong>在计算机中的表示：</strong> 正数的补码和原码、反码相同；负数补码是在反码加1。</p>
+<p><strong>在不溢出的情况下：</strong></p>
+<p>左移n位后的值 等于原值乘以2的n次方</p>
+<p>例如 4 &lt;&lt;2 就是16，二进制就是 00000100 &lt;&lt;00010000</p>
+<p>-4&lt;&lt;2 就是-16  二进制就是 11111100 &lt;&lt;11110000</p>
+<p>右移n位后的值 等于原值除以2的n次方的商</p>
+<p>例如 4 &gt;&gt;2 就是1，二进制就是 00000100 &gt;&gt;00000001</p>
+<p>-4&gt;&gt;2 就是-1  二进制就是 11111100 &lt;&lt;11111111</p>
+<h4 id="二进制的左移右移"><a href="#二进制的左移右移" class="headerlink" title="二进制的左移右移"></a>二进制的左移右移</h4><ul>
+<li>&lt;&lt;  表示左移，不分正负数，低位补0</li>
+<li>&gt;&gt;  表示右移，如果该数为正，则高位补0，若为负数，则高位补1</li>
+<li>&gt;&gt;&gt; 表示无符号右移，也叫逻辑右移，即若该数为正，则高位补0，而若该数为负数，则右移后高位同样补0，正数的&gt;&gt;&gt;相当于&gt;&gt;。</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">System.out.println(<span class="string">&quot;16 &lt;&lt; 1 : &quot;</span> + (<span class="number">16</span> &lt;&lt; <span class="number">1</span>));</span><br><span class="line">System.out.println(<span class="string">&quot;16 &gt;&gt; 3 : &quot;</span> + (<span class="number">16</span> &gt;&gt; <span class="number">3</span>));</span><br><span class="line">System.out.println(<span class="string">&quot;16 &gt;&gt; 10 : &quot;</span> + (<span class="number">16</span> &gt;&gt; <span class="number">10</span>));</span><br><span class="line">System.out.println(<span class="string">&quot;1 &gt;&gt; 1 : &quot;</span> + (<span class="number">1</span> &gt;&gt; <span class="number">1</span>));</span><br><span class="line">System.out.println(<span class="string">&quot;16 &gt;&gt;&gt; 2 : &quot;</span> + (<span class="number">16</span> &gt;&gt;&gt; <span class="number">2</span>));</span><br><span class="line">System.out.println(<span class="string">&quot;-16 &gt;&gt; 2 : &quot;</span> + (-<span class="number">16</span> &gt;&gt; <span class="number">2</span>));</span><br><span class="line">System.out.println(<span class="string">&quot;-16 &lt;&lt; 2 : &quot;</span> + (-<span class="number">16</span> &lt;&lt; <span class="number">2</span>));</span><br><span class="line">System.out.println(<span class="string">&quot;-16 &gt;&gt;&gt; 2 : &quot;</span> + (-<span class="number">16</span> &gt;&gt;&gt; <span class="number">2</span>));</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">16 &lt;&lt; 1 : 32</span><br><span class="line">16 &gt;&gt; 3 : 2</span><br><span class="line">16 &gt;&gt; 10 : 0</span><br><span class="line">1 &gt;&gt; 1 : 0</span><br><span class="line">16 &gt;&gt;&gt; 2 : 4</span><br><span class="line">-16 &gt;&gt; 2 : -4</span><br><span class="line">-16 &lt;&lt; 2 : -64</span><br><span class="line">-16 &gt;&gt;&gt; 2 : 1073741820</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>计算机基础</category>
+      </categories>
+      <tags>
+        <tag>补码</tag>
+        <tag>二进制</tag>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>康托展开与逆康托展开</title>
+    <url>/2020/07/06/%E5%BA%B7%E6%89%98%E5%B1%95%E5%BC%80%E4%B8%8E%E9%80%86%E5%BA%B7%E6%8B%93%E5%B1%95%E5%8D%A1/</url>
+    <content><![CDATA[<p>康托展开是一个全排列到一个自然数的双射，常用于构建哈希表时的空间压缩。康托展开的实质是计算当前排列在所有由小到大全排列中的顺序，因此是可逆的。</p>
+<a id="more"></a>
+
+<p>​       康托展开的公式为：<br>$$<br>rank = a_n(n-1)! + a_{n-1}(n-2)!+…+a_10!<br>$$<br>其中a<del>i</del>为整数，并且:<br>$$<br>0\leq a_i &lt; i, 1\leq i\leq n<br>$$<br>a<del>i</del>表示原数的第i位在当前未出现的元素中是排在第几个。</p>
+<p>1）<strong>康托展开</strong>（注意：如果排名是从1开始的话，最终结果应当再+1）</p>
+<p>给定一个全排列，计算其字典序。直观起见，我们举例[2, 3, 4, 1]来说明康托展开的运作步骤：<br>命所求字典序为 rank=0；</p>
+<ol>
+<li><p>第 1 位是 2， 那么以 1 打头的所有全排列一定排在这个全排列之前，那么以 1 打头的全排列有 (3!) = 6种，rank = rank + 1∗3! = 6；</p>
+</li>
+<li><p>第 2 位是 3，那么以 1 与 2 作为第二位的所有全排列一定在这个圈排列之前。不过我们已经让 2 打头了，因此不需要再考虑 2 占第二位的情况，只需要计算 1 占第二位的情况。rank = rank + 1∗2! = 8；</p>
+</li>
+<li><p>第三位是 4，同时，我们计算以 1 占第三位的所有情况。rank = rank + 1∗1! = 9；<br>最后一位，是不需要判定的，因为前 n−1位给定后，第 n 位自定。当然，为了也适应前面推导，可以记 rank = rank + 0∗0! = 9；</p>
+</li>
+<li><p>由是，排在 [2, 3, 4, 1] 之前的全排列共有 9 个，那么 [2, 3, 4, 1] 应当是第 10 个全排列。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getPermutation</span><span class="params">(<span class="keyword">int</span> n, <span class="keyword">int</span>[] nums)</span> </span>&#123;</span><br><span class="line">        List&lt;Integer&gt; candidates = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">        <span class="keyword">int</span>[] factorials = <span class="keyword">new</span> <span class="keyword">int</span>[n+<span class="number">1</span>];</span><br><span class="line">        factorials[<span class="number">0</span>] = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">int</span> factorial = <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; i++)&#123;</span><br><span class="line">            candidates.add(i);</span><br><span class="line">            factorial *= i;</span><br><span class="line">            factorials[i] = factorial;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">int</span> sum = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; i++)&#123;</span><br><span class="line">            <span class="keyword">int</span> k = candidates.indexOf(nums[i]);</span><br><span class="line">            sum = sum + k*factorials[n-i-<span class="number">1</span>];</span><br><span class="line">            candidates.remove(nums[i]);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> nums[<span class="number">0</span>]==<span class="number">1</span>?sum+<span class="number">1</span>:sum;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<p>2）<strong>逆康托展开</strong></p>
+<p>同样以[2, 3, 4, 1]为例，以说明逆康拓展开的执行方法。这里输入和输出互反，同时，我们还需要输入全排列的字符个数(否则有无穷多个解)。<br>给定，字符个数 4，字典序序号 10，首先字典序 - 1 得到排在该字典序前的全排列个数，然后：</p>
+<ol>
+<li>9 / 3! 结果，商 1 余 3，说明首位要余出一个给 当前没用过的，最小的一个字符，因为它们占据了前 6 个排序。这里 “1” 没有用过，又是最小的字符，因此，我们应当使用 “2” 作为首位，并标记其已经使用。取余数进行下一步操作。</li>
+<li>3 / 2! 结果，商 1 余 1，说明第二位要余出一个给 当前没用过的，最小的字符。这里 “1” 没有用过，“2” 已经用了。因此，我们应当使用 “3” 作第二位。</li>
+<li>1 / 1! 结果，商 1 余 0，说明第三位要余出一个给 当前没用过的，最小的字符。这里 “1” 没有用过，“2” 已经用了，“3”也用了。因此，我们应当使用 “4” 作第三位。</li>
+<li>同康托展开，最后一位无需判断，所有字符中至今未使用的填入即可。</li>
+</ol>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//leetcode#60题</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getPermutation</span><span class="params">(<span class="keyword">int</span> n, <span class="keyword">int</span> k)</span> </span>&#123;</span><br><span class="line">        StringBuilder sb = <span class="keyword">new</span> StringBuilder();</span><br><span class="line">        List&lt;Integer&gt; candidates = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line">        <span class="keyword">int</span>[] factorials = <span class="keyword">new</span> <span class="keyword">int</span>[n+<span class="number">1</span>];</span><br><span class="line">        factorials[<span class="number">0</span>] = <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">int</span> factorial = <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; i++)&#123;</span><br><span class="line">            candidates.add(i);</span><br><span class="line">            factorial *= i;</span><br><span class="line">            factorials[i] = factorial;</span><br><span class="line">        &#125;</span><br><span class="line">        k--;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = n-<span class="number">1</span>; i&gt;=<span class="number">0</span>; i--)&#123;</span><br><span class="line">            <span class="keyword">int</span> index = k/factorials[i];</span><br><span class="line">            sb.append(candidates.remove(index));</span><br><span class="line">            k -= index*factorials[i];</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> sb.toString();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Algorithm</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数组与字符串之间的相互转换</title>
+    <url>/2020/07/07/%E6%95%B0%E7%BB%84%E4%B8%8E%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B9%8B%E9%97%B4%E7%9A%84%E7%9B%B8%E4%BA%92%E8%BD%AC%E6%8D%A2/</url>
+    <content><![CDATA[<p>–</p>
+<a id="more"></a>
+
+<h4 id="1-字符串转数组"><a href="#1-字符串转数组" class="headerlink" title="1 字符串转数组"></a>1 字符串转数组</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//对于给定的字符串str</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//方法一</span></span><br><span class="line"><span class="comment">//注意：. | * 等转义字符，必须要加\，可以用|作为连字符</span></span><br><span class="line">String str = <span class="string">&quot;0,1,2,3,4,5&quot;</span>;</span><br><span class="line">String[] arr = str.split(<span class="string">&quot;,&quot;</span>);<span class="comment">//用&quot;,&quot;分割</span></span><br><span class="line">System.out.println(Arrays.toString(arr));<span class="comment">//[0,1,2,3,4,5]</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//方法二</span></span><br><span class="line">String str1 = <span class="string">&quot;12345&quot;</span>;</span><br><span class="line"><span class="keyword">char</span>[] arr1 = <span class="keyword">new</span> <span class="keyword">char</span>[str1.length];</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; arr1.length; i++)&#123;</span><br><span class="line">    arr1[i] = str1.charAt(i);</span><br><span class="line">&#125;</span><br><span class="line">System.out.println(Arrays.toString(arr1));<span class="comment">//[0,1,2,3,4,5]</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="2-数组转字符串"><a href="#2-数组转字符串" class="headerlink" title="2 数组转字符串"></a>2 数组转字符串</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//对于给定的字符串</span></span><br><span class="line">String[] arr = &#123; <span class="string">&quot;0&quot;</span>, <span class="string">&quot;1&quot;</span>, <span class="string">&quot;2&quot;</span>, <span class="string">&quot;3&quot;</span>, <span class="string">&quot;4&quot;</span>, <span class="string">&quot;5&quot;</span> &#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">//方法一 遍历</span></span><br><span class="line">StringBuffer str2 = <span class="keyword">new</span> StringBuffer();</span><br><span class="line"><span class="keyword">for</span> (String s : arr) &#123;</span><br><span class="line">    str2.append(s);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"></span><br><span class="line"><span class="comment">//方法二 使用StringUtils的join方法</span></span><br><span class="line"><span class="comment">//数组转字符串 org.apache.commons.lang3.StringUtils</span></span><br><span class="line"> </span><br><span class="line">String str3 = StringUtils.join(arr); <span class="comment">// 数组转字符串,其实使用的也是遍历</span></span><br><span class="line">System.out.println(str3); <span class="comment">// 012345</span></span><br><span class="line">String str4 = StringUtils.join(arr, <span class="string">&quot;,&quot;</span>); <span class="comment">// 数组转字符串(逗号分隔)(推荐) </span></span><br><span class="line">System.out.println(str4); <span class="comment">// 0,1,2,3,4,5</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">//方法三 使用ArrayUtils的toString方法</span></span><br><span class="line"><span class="comment">// 数组转字符串 org.apache.commons.lang3.ArrayUtils</span></span><br><span class="line"></span><br><span class="line">String str2 = ArrayUtils.toString(arr, <span class="string">&quot;,&quot;</span>); <span class="comment">// 数组转字符串(逗号分隔,首尾加大括号)</span></span><br><span class="line">System.out.println(str2); <span class="comment">// &#123;0,1,2,3,4,5&#125;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//方法四 不通用 arr需要是byte[]、char[]数组。</span></span><br><span class="line"><span class="keyword">return</span> <span class="keyword">new</span> String(arr);</span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>字符串</tag>
+        <tag>Java</tag>
+        <tag>数组</tag>
       </tags>
   </entry>
 </search>
